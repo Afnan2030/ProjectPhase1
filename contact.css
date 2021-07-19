@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
+*
+
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+body
+{
+    overflow-x: hidden;
+    background: #fff;
+    min-height: 100vh;
+}
+
+.navbar-brand
+{
+    color:rgb(209, 157, 157);
+    font-weight: 700;
+    font-size: 2em;
+    text-decoration: none;
+}
+
+
+#header ul li
+{
+    list-style:none;
+    margin-left: 20px;
+}
+#header ul li a
+{
+    text-decoration: none;
+    padding: 6px ;
+    color:rgb(209, 157, 157);
+    border-radius: 20px;
+
+}
+
+.navbar-light {
+    background-color: #fff !important;
+}
+
+
+.navbar-light .navbar-brand {
+    color: #a56a6a;
+}
+
+
+.navbar-light .navbar-brand:hover,
+.navbar-light .navbar-brand:focus {
+    color: rgb(197, 113, 92);
+}
+#header ul li a:hover ,
+#header ul li a.active
+{
+    background: rgb(209, 157, 157);
+    color: #fff;
+}
+
+section
+{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+section #text
+{
+    position: absolute ;
+    color: rgb(209, 157, 157);
+    font-size:6vw;
+    background: #fff;
+    border-radius:10px;
+    text-align: center;
+    top:25%;
+    line-height: 0.55em;
+    font-family: 'Poppins',sans-serif;
+
+}
+section #text span
+{
+    font-size: 0.20em;
+    letter-spacing: 3px;
+    font-weight: 400;
+    background: #fff;
+    padding: 3px, 3px,3px;
+    top: 15%;
+    border-radius: 10px;
+    font-family: 'Poppins',sans-serif;
+}
+
+
+
